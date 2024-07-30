@@ -19,7 +19,7 @@ jobs:
     - name: Download installers
       run: |
          curl -o alist-windows-amd64.zip "https://github.com/alist-org/alist/releases/download/v3.36.0/alist-windows-amd64.zip"
-         ll
+         ls
 
     - name: 连接sftp服务器
       uses: Dylan700/sftp-upload-action@latest
