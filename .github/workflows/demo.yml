@@ -19,7 +19,7 @@ jobs:
     - name: Download installers
       run: |
         mkdir upload
-        wget -O alist-windows-amd64.zip -P ./upload/ https://github.com/alist-org/alist/releases/download/v3.36.0/alist-windows-amd64.zip
+        wget -O ./upload/alist-windows-amd64.zip https://github.com/alist-org/alist/releases/download/v3.36.0/alist-windows-amd64.zip
         ls
 
     - name: 连接sftp服务器
